@@ -1,0 +1,32 @@
+$litur: lime;
+$color: green;
+$crim: #DC143C;
+$font: 18px;
+$thinborder: 1px solid $crim;
+$padding: 15px 15px 15px 15px;
+$string: " with an appended string";
+
+body{
+	background: linear-gradient($color,$crim);
+	margin: 0 auto;
+	max-width: 60em;
+}
+
+h1{
+	color:$litur;
+}
+
+h4{
+	color:$crim;
+}
+footer{
+	color:yellow;
+}
+.mypara{
+	font-size:$font;
+	border:$thinborder;
+	padding:$padding;
+}
+.mypara:after{
+	content: $string;
+}

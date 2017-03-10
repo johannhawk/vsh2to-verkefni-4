@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(green, #DC143C);
+  margin: 0 auto;
+  max-width: 60em; }
+
+h1 {
+  color: lime; }
+
+h4 {
+  color: #DC143C; }
+
+footer {
+  color: yellow; }
+
+.mypara {
+  font-size: 18px;
+  border: 1px solid #DC143C;
+  padding: 15px 15px 15px 15px; }
+
+.mypara:after {
+  content: " with an appended string"; }
+
+/*# sourceMappingURL=prufa.css.map */

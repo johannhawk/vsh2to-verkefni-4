@@ -1,0 +1,48 @@
+@media screen and (min-width: 60em) {
+  body {
+    background: linear-gradient(orange, red);
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 60em;
+    margin: 0 auto; }
+    body p {
+      font-family: Times; }
+    body p.mypara {
+      font-family: "Courier New"; }
+
+  h1 {
+    color: magenta; }
+
+  h4 {
+    color: #DC143C; }
+
+  .mypara {
+    color: #DC143C;
+    border: 1px solid red;
+    padding: 10px; }
+    .mypara:hover {
+      color: magenta; } }
+@media screen and (max-width: 60em) {
+  body {
+    background: linear-gradient(lime, magenta);
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 60em;
+    margin: 0 auto; }
+    body p {
+      font-family: Times; }
+    body p.mypara {
+      font-family: "Courier New"; }
+
+  h1 {
+    color: magenta; }
+
+  h4 {
+    color: #DC143C; }
+
+  .mypara {
+    color: #DC143C;
+    border: 1px solid red;
+    padding: 10px; }
+    .mypara:hover {
+      color: magenta; } }
+
+/*# sourceMappingURL=prufa2.css.map */
